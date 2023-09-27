@@ -29,8 +29,10 @@ export const ContactsPage = ({ contacts, addContact }) => {
 
   useEffect(() => {
     contacts.map((object) => {
-      if (object.name === name) {
-        setIsDuplicate(true);
+      {
+        if (object.name === name) {
+          setIsDuplicate(true);
+        }
       }
     });
   });
