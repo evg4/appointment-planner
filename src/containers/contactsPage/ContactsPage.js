@@ -28,11 +28,9 @@ export const ContactsPage = ({ contacts, addContact }) => {
   };
 
   useEffect(() => {
-    contacts.map((object) => {
-      {
-        if (object.name === name) {
-          setIsDuplicate(true);
-        }
+    contacts.forEach((object) => {
+      if (object.name === name) {
+        setIsDuplicate(true);
       }
     });
   });
