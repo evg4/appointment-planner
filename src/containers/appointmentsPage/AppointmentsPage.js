@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import { AppointmentForm } from "../../components/appointmentForm/AppointmentForm";
 import { TileList } from "../../components/tileList/TileList";
-import Tile from "../../components/tile/Tile";
 
 export const AppointmentsPage = ({ appts, contacts, addAppt }) => {
   /*

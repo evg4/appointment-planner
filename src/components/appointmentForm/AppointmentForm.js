@@ -18,11 +18,6 @@ export const AppointmentForm = ({
   setTime,
   handleSubmit,
 }) => {
-  const [selected, setSelected] = useState(false);
-  function resetDropdown() {
-    setSelected(true);
-  }
-
   function onChange(e) {
     let contact = e.target.value;
     setContact(contact);
