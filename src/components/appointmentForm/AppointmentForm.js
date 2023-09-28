@@ -39,6 +39,8 @@ export const AppointmentForm = ({
           value={meeting}
           placeholder="Name of meeting"
         ></input>
+        <br />
+
         <label htmlFor="date">Date of meeting</label>
         <input
           onChange={(e) => {
@@ -52,6 +54,7 @@ export const AppointmentForm = ({
           id="date"
           value={date}
         ></input>
+        <br />
         <label htmlFor="time">Time of meeting</label>
         <input
           onChange={(e) => {
@@ -64,6 +67,7 @@ export const AppointmentForm = ({
           id="time"
           value={time}
         ></input>
+        <br />
         <label htmlFor="participant">Participant</label>
         <ContactPicker
           id="participant"

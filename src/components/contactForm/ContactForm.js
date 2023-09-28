@@ -37,7 +37,7 @@ export const ContactForm = ({
           id="phone"
           value={phone}
           pattern="[0-9]{11}"
-          placeholder="Must be 16 digits"
+          placeholder="Must be 11 digits"
         ></input>
         <label htmlFor="email">Email:</label>
         <input
